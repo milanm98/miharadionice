@@ -1,0 +1,85 @@
+html{
+    font-size : 45px;
+}
+img{
+    width:600px;
+    height:500px;
+
+}
+h1{
+    text-align:center;
+    color:blue;
+}
+
+h2{
+
+
+    text-align:center;
+    color:blue;
+}
+
+h3{
+    text-align:center;
+    color:blue;
+}
+
+h4{
+    text-align:center;
+    color:blue;
+}
+
+h5{
+    text-align:center;
+    color:blue;
+}
+
+h6{
+    text-align:center;
+    color:blue;
+}
+
+html{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 25%, rgba(102,253,45,1) 100%);
+}
+
+.skolaracSlike{
+    text-align:center;
+}
+img{
+    animation : idi 5s linear infinite alternate;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.boxbox:hover{
+    text-decoration : underline;
+}
+
+.box {
+    margin-bottom: 20px;
+
+}
+.boxbox{
+    text-align:center;
+    text-decoration : none;
+    font-style : cursive;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color : lime;
+    display : block;
+}
+
+.skolaracSlike{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@keyframes idi {
+
+    0% {
+        transform : rotate(-30deg);
+    }
+    100%{
+        transform : rotate(30deg);
+    }
+}
